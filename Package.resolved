@@ -12,10 +12,10 @@
     {
       "identity" : "graphviz",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/SwiftDocOrg/GraphViz.git",
+      "location" : "https://github.com/wabiverse/GraphViz.git",
       "state" : {
-        "revision" : "70bebcf4597b9ce33e19816d6bbd4ba9b7bdf038",
-        "version" : "0.2.0"
+        "revision" : "88a69428f5e9aa926621851ea526ee5e03672046",
+        "version" : "0.5.0"
       }
     },
     {
@@ -255,10 +255,10 @@
     {
       "identity" : "xcodegen",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/stackotter/XcodeGen",
+      "location" : "https://github.com/wabiverse/XcodeGen",
       "state" : {
-        "revision" : "adbf99beb7afb4844774d14e9275da9a503a427c",
-        "version" : "2.35.1"
+        "revision" : "91d0082c55124d1c1eb3d4272f253e89a6a0f5c1",
+        "version" : "2.35.2"
       }
     },
     {
