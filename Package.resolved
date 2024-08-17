@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/wabiverse/GraphViz.git",
       "state" : {
-        "revision" : "88a69428f5e9aa926621851ea526ee5e03672046",
-        "version" : "0.5.0"
+        "revision" : "5e597d2f580f543cf7185f260c69b6b482a68d0f",
+        "version" : "0.6.0"
       }
     },
     {
@@ -257,8 +257,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/wabiverse/XcodeGen",
       "state" : {
-        "revision" : "91d0082c55124d1c1eb3d4272f253e89a6a0f5c1",
-        "version" : "2.35.2"
+        "revision" : "448d6b22b90895c7e695c68e66c1c1c33214f4a6",
+        "version" : "2.35.3"
       }
     },
     {
