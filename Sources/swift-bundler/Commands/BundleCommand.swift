@@ -237,7 +237,7 @@ struct BundleCommand: AsyncCommand {
       // Create build job
       let build: () async -> Result<Void, Error> = {
         if forceUsingXcodeBuild {
-          XcodeBuildManager.build(
+          return XcodeBuildManager.build(
             product: appConfiguration.product,
             packageDirectory: packageDirectory,
             configuration: arguments.buildConfiguration,
@@ -250,7 +250,7 @@ struct BundleCommand: AsyncCommand {
             return error
           }
         } else {
-          SwiftPackageManager.build(
+          return SwiftPackageManager.build(
             product: appConfiguration.product,
             packageDirectory: packageDirectory,
             configuration: arguments.buildConfiguration,
